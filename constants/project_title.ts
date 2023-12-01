@@ -1,0 +1,1 @@
+export const project_title = 'Reaching New Heights: Online Scams in the Age of AI'
