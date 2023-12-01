@@ -22,7 +22,7 @@ const GetInvolved: FC = () => {
       </h3>
       <button onClick={() => window.location.replace(window.location.origin)}><IoMdArrowRoundBack size={'5vmax'} color="white" className="z-10 absolute bottom-0 left-0 m-[20px] hover:opacity-50" /></button>
     </div>
-    <div className="flex flex-col items-start justify-start min-h-[50vh] py-5 bg-black">
+    <div className="max-w-5xl mx-auto p-8 mt-8 rounded-md shadow-md text-white">
       <main className="flex flex-col lg:items-start lg:justify-start items-center justify-center flex-1 px-20 text-start">
         <div className="section mb-12 text-white">
           <h2 className="text-3xl font-bold text-green-400 mb-4">Initiatives Raising Awareness:</h2>
