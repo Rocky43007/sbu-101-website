@@ -58,10 +58,10 @@ export default function Home() {
       <div className="flex flex-col lg:items-start lg:justify-start items-center justify-center min-h-screen py-2">
         <main className="flex flex-col lg:items-start lg:justify-start items-center justify-center flex-1 px-20 text-start">
           <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-x-[200px] gap-y-[100px] justify-center items-center py-[50px]'>
-            <PageSelector title='Background' description='Placeholder Text' bg="/Background_Page.jpg" link={'/projects/spacedrive'} />
+            <PageSelector title='Background' description='Why we need to address the issue of AI-powered scams' bg="/Background_Page.jpg" link={'/projects/spacedrive'} />
             <PageSelector title='Get Involved' description='Here&apos;s what you can do to minimize the impact of the current situation.' bg="/Protester_Pic.jpg" link={'/get-involved'} />
-            <PageSelector title='Process of Implementation' description="Placeholder Text" bg="/Obstacles.png" link={'/process'} />
-            <PageSelector title='Sources' description='Placeholder Text' bg="/Sources.jpg" link={'/projects/shadereditor'} />
+            <PageSelector title='Process of Implementation' description="Navigating the Challenges of AI Advocacy" bg="/Obstacles.png" link={'/process'} />
+            <PageSelector title='Sources' description='Our sources for this project' bg="/Sources.jpg" link={'/projects/shadereditor'} />
           </div>
         </main>
       </div>

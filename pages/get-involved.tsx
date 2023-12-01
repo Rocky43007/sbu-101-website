@@ -14,7 +14,7 @@ const GetInvolved: FC = () => {
           Get Involved
         </h1>
         <h2 className='opacity-75 lg:text-[1.575vmax] text-[1rem] font-light'>
-          Here&apos;s how you can get involved in the fight against AI-powered scams.
+          Here&apos;s how you can get involved in the fight against AI-powered scams
         </h2>
       </main>
       <h3 className="text-[1.5vmax] font-bold z-10 bottom-0 py-[10px] w-full flex items-center justify-center text-center animate-pulse">
