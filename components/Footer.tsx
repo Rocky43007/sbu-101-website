@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           </a> & Dilsad Mahzabin 2023
         </div>
         <div className="flex items-center space-x-4">
-          <a href="https://github.com/your-github-repo" target="_blank" rel="noopener noreferrer" className="text-md text-blue-400 hover:text-blue-500">
+          <a href="https://github.com/Rocky43007/sbu-101-website" target="_blank" rel="noopener noreferrer" className="text-md text-blue-400 hover:text-blue-500">
             Check out the source on Github
           </a>
           <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="flex text-md lg:flex-row flex-col hover:text-blue-500">
