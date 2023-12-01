@@ -1,6 +1,6 @@
 {
-  "name": "rocky43007.github.io",
-  "version": "3.0.0",
+  "name": "sbu-101-website",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
