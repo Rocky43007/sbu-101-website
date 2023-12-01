@@ -97,6 +97,13 @@ const Sources: FC = () => {
           <h3 className="text-xl font-bold mb-2">12. Technology and Security Illustration (Right Click to Open Image Source)</h3>
           <Image src="https://videohive.img.customer.envatousercontent.com/files/a58ca14a-1346-403e-b6f5-e1245f9352c0/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=8c5fa9c8bd5cd60d2b257a13b1f336b9" alt="Technology and Security Illustration" width={600} height={400} />
         </div>
+
+        <h2 className="text-2xl font-bold mb-4 text-red-400">
+          Special Thanks
+        </h2>
+        <p className="text-base">
+          Special thanks to the <a href="https://nextjs.org/docs" target="_blank" rel="noopener noreferrer" className="underline text-blue-400 hover:text-blue-500">Next.js documentation</a> and <a href="https://tailwindcss.com/docs" target="_blank" rel="noopener noreferrer" className="underline text-blue-400 hover:text-blue-500">Tailwind CSS documentation</a> for providing valuable guidance in building this website.
+        </p>
       </div>
     </>
   );
