@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
 import { IoMdArrowRoundBack } from 'react-icons/io';
 import Header from '../components/Header';
@@ -19,7 +20,7 @@ const Background: FC = () => {
           </h2>
         </main>
         <h3 className="text-[1.5vmax] font-bold z-10 bottom-0 py-[10px] w-full flex items-center justify-center text-center animate-pulse">
-          Scroll down for more information!
+          Scroll down for More Information
         </h3>
         <button onClick={() => window.location.replace(window.location.origin)}>
           <IoMdArrowRoundBack size={'5vmax'} color="white" className="z-10 absolute bottom-0 left-0 m-[20px] hover:opacity-50" />
@@ -62,10 +63,11 @@ const Background: FC = () => {
           Why the Public Should Care
         </h2>
         <p className="text-base mb-4 ">
-          The target audience for this campaign is anyone who uses the internet today; children and the elderly are particularly susceptible to virtual scams these days. Because of how prevalent it is today, we need the public to be more educated about these topics and companies and the government to do more on their part to strengthen <strong className="text-green-500">cybersecurity measures</strong>, enact robust regulations, and invest in technologies that can effectively detect and mitigate evolving threats. This issue connect both on a local scale and global scale as new AI scams can compromise an entire companies data that can include people&apos;s addresses, bank info and more.
+          The target audience for this campaign is <strong className="text-blue-500">anyone who uses the internet</strong>; children and the elderly are particularly susceptible to virtual scams these days. Because of increasing <strong className="text-blue-500">dependency on the internet</strong> today, we need the public to be more educated about these topics, and companies and the government to do more on their part to strengthen <strong className="text-orange-500">cybersecurity measures, enact robust regulations</strong>, and invest in technologies <strong className="text-purple-500"> that can effectively detect and mitigate evolving threats</strong>. This issue is a <strong className="text-yellow-500">local and global scale issue</strong>, as new AI scams can compromise an entire company's data which can include people's addresses, bank info, and more.
         </p>
+
         <p className="text-base ">
-          Companies should prioritize the integration of AI-driven security solutions to stay ahead of <strong className="text-red-500">cybercriminal tactics</strong>, while government agencies play a pivotal role in crafting and enforcing legislation that addresses the ethical use of AI and imposes consequences for malicious activities. By fostering a collaborative effort between individuals, businesses, and governmental bodies, we can collectively create a safer online environment, increasing our defenses against virtual scams.
+          Companies should prioritize the <strong className="text-orange-500">integration of AI-driven security solutions</strong> to stay ahead of <strong className="text-purple-500">cybercriminal tactics</strong>, while government agencies play a pivotal role in crafting and enforcing legislation that addresses the <strong className="text-blue-500">ethical use of AI</strong> and imposes consequences for <strong className="text-red-500">malicious activities</strong>. By fostering a <strong className="text-yellow-500">collaborative effort</strong> between <strong className="text-green-500">individuals</strong>, <strong className="text-teal-500">businesses</strong>, and <strong className="text-teal-500">governmental bodies</strong>, we can collectively create a <strong className="text-blue-500">safer online environment</strong>, increasing our defenses against <strong className="text-purple-500">virtual scams</strong>.
         </p>
 
         <div className="flex items-center justify-center p-[50px]">

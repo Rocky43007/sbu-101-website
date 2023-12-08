@@ -20,7 +20,7 @@ const Sources: FC = () => {
           </h2>
         </main>
         <h3 className="text-2xl font-bold z-10 bottom-0 py-8 w-full flex items-center justify-center text-center animate-pulse">
-          Scroll down for more information!
+          Scroll down for More Information
         </h3>
         <button onClick={() => window.location.replace(window.location.origin)}>
           <IoMdArrowRoundBack size={'5vmax'} color="white" className="z-10 absolute bottom-0 left-0 m-4 hover:opacity-50" />
