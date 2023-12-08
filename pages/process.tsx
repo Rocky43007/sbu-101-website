@@ -7,7 +7,7 @@ import { project_title } from "../constants/project_title";
 const Process: FC = () => {
   return (
     <>
-      <Header title={`Process of Implementation | ${project_title}`} description={"Here's how you can get involved!"} />
+      <Header title={`Process of Implementation | ${project_title}`} description={"Here's how we're going to solve this issue!"} />
       <div className="flex flex-col items-center justify-center min-h-screen py-2">
         <Image src={'/Obstacles.png'} fill alt="bgImage" className="w-full h-full object-cover object-center brightness-[30%] blur" />
         <main className="flex flex-col items-center justify-center flex-1 px-20 text-center text-white">

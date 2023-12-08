@@ -7,7 +7,7 @@ import { project_title } from "../constants/project_title";
 export default function Home() {
   return (
     <>
-      <Header title={project_title} description={"Arnab Chakraborty (Rocky43007)'s Personal Portfolio Site where you find all of his past and present projects!"}></Header>
+      <Header title={project_title} description={"Welcome to our platform dedicated to addressing the pressing concerns of privacy and security in today's tech-driven world."} />
       <div className='h-full w-full overflow-hidden relative'>
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
           <div className='flex items-center justify-center flex-1'>
@@ -58,10 +58,10 @@ export default function Home() {
       <div className="flex flex-col lg:items-start lg:justify-start items-center justify-center min-h-screen py-2">
         <main className="flex flex-col lg:items-start lg:justify-start items-center justify-center flex-1 px-20 text-start">
           <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-x-[200px] gap-y-[100px] justify-center items-center py-[50px]'>
-            <PageSelector title='Background' description='Why we need to address the issue of AI-powered scams' bg="/Background_Page.jpg" link={'/projects/spacedrive'} />
+            <PageSelector title='Background' description='Why we need to address the issue of AI-powered scams' bg="/Background_Page.jpg" link={'/background'} />
             <PageSelector title='Get Involved' description='Here&apos;s what you can do to minimize the impact of the current situation.' bg="/Protester_Pic.jpg" link={'/get-involved'} />
             <PageSelector title='Process of Implementation' description="Navigating the Challenges of AI Advocacy" bg="/Obstacles.png" link={'/process'} />
-            <PageSelector title='Sources' description='Our sources for this project' bg="/Sources.jpg" link={'/projects/shadereditor'} />
+            <PageSelector title='Sources' description='Our sources for this project' bg="/Sources.jpg" link={'/sources'} />
           </div>
         </main>
       </div>

@@ -8,7 +8,7 @@ import { project_title } from "../constants/project_title";
 const Sources: FC = () => {
   return (
     <>
-      <Header title={`Project Sources | ${project_title}`} description={"Here's how you can get involved!"} />
+      <Header title={`Project Sources | ${project_title}`} description={"Here's where we got our information!"} />
       <div className="flex flex-col items-center justify-center min-h-screen py-2">
         <Image src={'/Sources.jpg'} fill alt="bgImage" className="w-full h-full object-cover object-center brightness-[30%] blur" />
         <main className="flex flex-col items-center justify-center flex-1 px-20 text-center text-white">

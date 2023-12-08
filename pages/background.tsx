@@ -7,7 +7,7 @@ import { project_title } from "../constants/project_title";
 const Background: FC = () => {
   return (
     <>
-      <Header title={`Background | ${project_title}`} description={"Here's how you can get involved!"} />
+      <Header title={`Background | ${project_title}`} description={"Why we need to address the issue of AI-powered scams"} />
       <div className="flex flex-col items-center justify-center min-h-screen py-2 w-full">
         <Image src={'/Background_Page.jpg'} fill alt="bgImage" className="w-full h-full object-cover object-center brightness-[30%] blur" />
         <main className="flex flex-col items-center justify-center flex-1 px-20 text-center text-white w-full">
@@ -30,7 +30,7 @@ const Background: FC = () => {
           Describing the Social Issue
         </h2>
         <p className="text-base mb-4 ">
-          The increasing accessibility of AI tools on the internet has made it accessible for scammers to personalize attacks, analyze large datasets of targeted victim identification, and mimic legitimate user behavior. With the global and interconnected nature of the internet, it further challenges combating these scams. As cybersecurity measures evolve, scammers adeptly utilize AI to bypass traditional defenses, requiring companies and institutions to take an approach against these scams by involving technology, policy, education, and international cooperation.
+          The increasing accessibility of AI tools on the internet has made it easier for scammers to personalize attacks, analyze large datasets of targeted victim identification, and mimic user behavior. With the global and interconnected nature of the internet, it further challenges combating these scams. As cybersecurity measures evolve, scammers adeptly utilize AI to bypass traditional defenses, requiring companies and institutions to take an approach against these scams by involving technology, policy, education, and international cooperation.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 ">
